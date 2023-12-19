@@ -81,4 +81,7 @@ class Paths
         // path lab
     public string $viewlabDirectory = __DIR__ . '/../Views/lab';
 
+    // path firsttemplate
+    public string $viewtemDirectory = __DIR__ . '../Views/firsttemplate';
+
 }
