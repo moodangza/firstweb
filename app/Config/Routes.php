@@ -5,8 +5,8 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('(:any)','Pages::view/$1');
+$routes->get('/', 'Pages::index');
+// $routes->get('(:any)','Pages::view/$1');
 
 use App\Controllers\Pages;
 $routes->get('pages',[Pages::class,'index']);
