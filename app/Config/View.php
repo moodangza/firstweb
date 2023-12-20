@@ -59,4 +59,9 @@ class View extends BaseView
      * @var class-string<ViewDecoratorInterface>[]
      */
     public array $decorators = [];
+
+    public static function renderer($viewPath=APPPATH.'views/')
+    {
+        return new \CodeIgniter\View\View($viewPath);
+    }
 }
