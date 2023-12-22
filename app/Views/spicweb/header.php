@@ -5,7 +5,7 @@
   <title>Spica Admin</title>
   <!-- base:css -->
   <link rel="stylesheet" href="firsttemplate/vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="<?php echo APPPATH."/firsttemplate/vendors/css/vendor.bundle.base.css";?>>
+  <link rel="stylesheet" href="<?php echo APPPATH.'/firsttemplate/vendors/css/vendor.bundle.base.css';?>">
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
