@@ -5,7 +5,7 @@ class Pages extends BaseController
 {
     public function index()
     {
-         echo('spicweb/header');
+        //  echo('spicweb/header');
         return view('spicweb/index');
     }
 
